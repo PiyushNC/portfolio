@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Chaturanga thumbnail">
+  <rect width="100%" height="100%" rx="12" fill="#071029"/>
+  <!-- three stylized pieces: rook, king, rook in three colors -->
+  <g transform="translate(90,60)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <!-- left rook (blue) -->
+    <g transform="translate(0,0) scale(1.1)">
+      <rect x="20" y="110" width="60" height="18" rx="6" fill="#0ea5e9" opacity="0.95"/>
+      <rect x="34" y="40" width="32" height="72" rx="8" fill="#0369a1"/>
+      <rect x="34" y="28" width="32" height="14" fill="#0ea5e9"/>
+      <rect x="32" y="24" width="36" height="6" fill="#ffffff" opacity="0.06"/>
+    </g>
+  </g>
+  <g transform="translate(240,20)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <!-- center king (yellow) -->
+    <g transform="scale(1.1)">
+      <rect x="24" y="104" width="72" height="24" rx="8" fill="#fef3c7"/>
+      <rect x="40" y="40" width="40" height="80" rx="10" fill="#f59e0b"/>
+      <circle cx="60" cy="24" r="12" fill="#facc15"/>
+      <rect x="56" y="12" width="8" height="24" fill="#b45309" opacity="0.06"/>
+    </g>
+  </g>
+  <g transform="translate(420,60)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <!-- right rook (red) -->
+    <g transform="translate(0,0) scale(1.1)">
+      <rect x="20" y="110" width="60" height="18" rx="6" fill="#fecaca"/>
+      <rect x="34" y="40" width="32" height="72" rx="8" fill="#dc2626"/>
+      <rect x="34" y="28" width="32" height="14" fill="#fca5a5"/>
+      <rect x="32" y="24" width="36" height="6" fill="#ffffff" opacity="0.06"/>
+    </g>
+  </g>
+</svg>
