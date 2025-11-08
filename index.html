@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Piyush N Chandre — Portfolio</title>
   <meta name="description" content="Functional, aesthetic, and communicable portfolio showcasing projects, skills, and contact details.">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%233B82F6'/%3E%3Ctext x='50' y='58' font-size='44' text-anchor='middle' fill='white' font-family='Arial, Helvetica, sans-serif'%3EY%3C/text%3E%3C/svg%3E">
 </head>
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-  <a class="brand" href="#">Piyush N Chandre</a>
+      <a class="brand" href="#">Piyush N Chandre</a>
       <button id="nav-toggle" class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="hamburger"></span>
       </button>
@@ -34,8 +34,8 @@
         </div>
         <div class="hero-card" aria-hidden="true">
           <picture>
-            <source srcset="assets/piyush.jpg" type="image/jpeg">
-            <img src="assets/hero-placeholder.svg" alt="Piyush N Chandre" class="hero-illustration-img" loading="lazy" decoding="async" sizes="(min-width:981px) 420px, 100vw">
+            <source srcset="piyush.jpg" type="image/jpeg">
+            <img src="hero-placeholder.svg" alt="Piyush N Chandre" class="hero-illustration-img" loading="lazy" decoding="async" sizes="(min-width:981px) 420px, 100vw">
           </picture>
         </div>
       </div>
@@ -46,11 +46,12 @@
         <h2>Selected Projects</h2>
         <p class="lead">A selection of projects that highlight how I combine design, performance, and clear communication.</p>
         <div class="grid project-grid">
+
           <article class="card project" tabindex="0" data-title="Stray Animal Relocator" data-desc="A full-stack rescue coordination app for relocating stray animals. Features GPS tagging of sightings, volunteer dispatch, map-based rescue workflows, photo evidence uploads, SMS/email notifications, and an admin dashboard for shelter intake. Built with Node.js/Express, Postgres, and a lightweight React frontend; includes offline-first behavior and accessibility-first forms for field use.">
             <div class="card-media" aria-hidden="true">
               <picture>
-                <source srcset="assets/animals.png" type="image/png">
-                <img src="assets/animals-placeholder.svg" alt="Stray Animal Relocator thumbnail: placeholder image" class="project-thumb-img" width="600" height="360">
+                <source srcset="animals.png" type="image/png">
+                <img src="animals-placeholder.svg" alt="Stray Animal Relocator thumbnail" class="project-thumb-img" width="600" height="360">
               </picture>
             </div>
             <div class="card-body">
@@ -63,8 +64,8 @@
           <article class="card project" tabindex="0" data-title="Newstagram" data-desc="A personalized news aggregator that learns user interests and surfaces concise, trustworthy stories. Features user profiles, interest tagging, NLP-powered summarization, source filtering, offline reading, and social sharing. Implemented with Next.js for SSR, a custom recommendation pipeline, server-side caching, and attention to performance budgets and SEO.">
             <div class="card-media" aria-hidden="true">
               <picture>
-                <source srcset="assets/news.png" type="image/png">
-                <img src="assets/news.png" alt="Newstagram thumbnail: personalized news" class="project-thumb-img" width="600" height="360">
+                <source srcset="news.png" type="image/png">
+                <img src="news.png" alt="Newstagram thumbnail" class="project-thumb-img" width="600" height="360">
               </picture>
             </div>
             <div class="card-body">
@@ -76,7 +77,7 @@
 
           <article class="card project" tabindex="0" data-title="Chaturanga" data-desc="A web-based chess engine and UI (Chaturanga) with a strong AI option, PGN import/export, move analysis, and multiplayer via WebSockets. The engine uses minimax with alpha-beta pruning, pluggable evaluation heuristics, configurable difficulty levels, and a responsive board UI with keyboard and drag/drop support.">
             <div class="card-media" aria-hidden="true">
-              <img src="assets/chess.png" alt="Chaturanga thumbnail: three chess pieces" class="project-thumb-img" width="600" height="360">
+              <img src="chess.png" alt="Chaturanga thumbnail" class="project-thumb-img" width="600" height="360">
             </div>
             <div class="card-body">
               <h3>Chaturanga</h3>
@@ -84,6 +85,7 @@
               <p><button class="btn btn-inline view-details">View details</button></p>
             </div>
           </article>
+
         </div>
       </div>
     </section>
@@ -153,6 +155,6 @@
     </div>
   </div>
 
-  <script src="js/main.js" defer></script>
+  <script src="main.js" defer></script>
 </body>
 </html>
