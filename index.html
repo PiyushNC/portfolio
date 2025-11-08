@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Piyush N Chandre — Portfolio</title>
+  <meta name="description" content="Functional, aesthetic, and communicable portfolio showcasing projects, skills, and contact details.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%233B82F6'/%3E%3Ctext x='50' y='58' font-size='44' text-anchor='middle' fill='white' font-family='Arial, Helvetica, sans-serif'%3EY%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+  <a class="brand" href="#">Piyush N Chandre</a>
+      <button id="nav-toggle" class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hi — I'm Piyush N Chandre</h1>
+          <p class="tagline">I build <span id="type-text" class="type" aria-live="polite"></span><span class="cursor" aria-hidden="true">|</span></p>
+          <p class="hero-cta"><a class="btn" href="#projects">See my work</a> <a class="btn btn-outline" href="#contact">Get in touch</a></p>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <picture>
+            <source srcset="assets/piyush.jpg" type="image/jpeg">
+            <img src="assets/hero-placeholder.svg" alt="Piyush N Chandre" class="hero-illustration-img" loading="lazy" decoding="async" sizes="(min-width:981px) 420px, 100vw">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Selected Projects</h2>
+        <p class="lead">A selection of projects that highlight how I combine design, performance, and clear communication.</p>
+        <div class="grid project-grid">
+          <article class="card project" tabindex="0" data-title="Stray Animal Relocator" data-desc="A full-stack rescue coordination app for relocating stray animals. Features GPS tagging of sightings, volunteer dispatch, map-based rescue workflows, photo evidence uploads, SMS/email notifications, and an admin dashboard for shelter intake. Built with Node.js/Express, Postgres, and a lightweight React frontend; includes offline-first behavior and accessibility-first forms for field use.">
+            <div class="card-media" aria-hidden="true">
+              <picture>
+                <source srcset="assets/animals.png" type="image/png">
+                <img src="assets/animals-placeholder.svg" alt="Stray Animal Relocator thumbnail: placeholder image" class="project-thumb-img" width="600" height="360">
+              </picture>
+            </div>
+            <div class="card-body">
+              <h3>Stray Animal Relocator</h3>
+              <p>Rescue coordination app — GPS reports, volunteer dispatch, shelter intake dashboard, and notifications for quicker relocations.</p>
+              <p><button class="btn btn-inline view-details">View details</button></p>
+            </div>
+          </article>
+
+          <article class="card project" tabindex="0" data-title="Newstagram" data-desc="A personalized news aggregator that learns user interests and surfaces concise, trustworthy stories. Features user profiles, interest tagging, NLP-powered summarization, source filtering, offline reading, and social sharing. Implemented with Next.js for SSR, a custom recommendation pipeline, server-side caching, and attention to performance budgets and SEO.">
+            <div class="card-media" aria-hidden="true">
+              <picture>
+                <source srcset="assets/news.png" type="image/png">
+                <img src="assets/news.png" alt="Newstagram thumbnail: personalized news" class="project-thumb-img" width="600" height="360">
+              </picture>
+            </div>
+            <div class="card-body">
+              <h3>Newstagram</h3>
+              <p>Personalized news — ML-backed recommendations, fast SSR, summaries, and a clean, readable UI optimized for retention and sharing.</p>
+              <p><button class="btn btn-inline view-details">View details</button></p>
+            </div>
+          </article>
+
+          <article class="card project" tabindex="0" data-title="Chaturanga" data-desc="A web-based chess engine and UI (Chaturanga) with a strong AI option, PGN import/export, move analysis, and multiplayer via WebSockets. The engine uses minimax with alpha-beta pruning, pluggable evaluation heuristics, configurable difficulty levels, and a responsive board UI with keyboard and drag/drop support.">
+            <div class="card-media" aria-hidden="true">
+              <img src="assets/chess.png" alt="Chaturanga thumbnail: three chess pieces" class="project-thumb-img" width="600" height="360">
+            </div>
+            <div class="card-body">
+              <h3>Chaturanga</h3>
+              <p>Chess engine — AI opponent, PGN support, analysis mode, and real-time multiplayer with a focus on performance and clean UX.</p>
+              <p><button class="btn btn-inline view-details">View details</button></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About me</h2>
+        <p>I'm Piyush N Chandre — a full-stack developer and product-minded designer. I build accessible, high-performance web applications and tools that help teams move faster and users accomplish real goals.</p>
+        <p>My usual stack includes modern JavaScript (ES2020+), React/Next.js on the front end, Node.js/Express and PostgreSQL on the back end, and lightweight serverless functions where appropriate. I care about semantic HTML, CSS architecture, and shipping performant, well-tested features.</p>
+        <p>My approach centers on three things: usability, performance, and clear communication. I start with accessible components, add measured performance budgets, and write concise documentation and handoffs so designs and engineers stay aligned.</p>
+        <p>Open to freelance and full-time opportunities. If you'd like to collaborate on product design, engineering, or tooling, drop me a line at <a href="mailto:piyushchandre2004@gmail.com">piyushchandre2004@gmail.com</a>.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+          <div class="skill"><strong>JavaScript</strong><span>— modern ES, frameworks</span></div>
+          <div class="skill"><strong>React</strong><span>— hooks, state management, component patterns</span></div>
+          <div class="skill"><strong>Next.js</strong><span>— SSR, static export, performance</span></div>
+          <div class="skill"><strong>Node & Express</strong><span>— APIs, middleware, server logic</span></div>
+          <div class="skill"><strong>MongoDB</strong><span>— schema design, aggregation</span></div>
+          <div class="skill"><strong>HTML & CSS</strong><span>— semantic markup, responsive layouts</span></div>
+          <div class="skill"><strong>Design</strong><span>— Figma, UX patterns, accessible components</span></div>
+          <div class="skill"><strong>Competitive programming</strong><span>— algorithms, data structures, problem solving</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>If you'd like to work together, email me at <a href="mailto:you@example.com">you@example.com</a> or send a short message below.</p>
+        <form id="contact-form" class="contact-form" novalidate>
+          <label>
+            Name
+            <input type="text" name="name" required aria-required="true">
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required aria-required="true">
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" required aria-required="true"></textarea>
+          </label>
+          <p><button type="submit" class="btn">Send</button></p>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> PiyushNC — Built with ❤️.</p>
+    </div>
+  </footer>
+
+  <!-- Project details modal -->
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-panel">
+      <button id="modal-close" class="modal-close" aria-label="Close">×</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
